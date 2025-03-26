@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de configuración local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de caché y directorios de logs
+.pnp/
+.pnp.js
+dist/
+build/
+
+# Base de datos de MariaDB (si estás usando algún archivo local para pruebas)
+*.sql
+*.db
+
+# Sistema de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias de producción de node
+package-lock.json
+yarn.lock
+
+# Directorios de compilación
+build/
+dist/
+
+# Sistema de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+# Archivos de bases de datos locales
+*.sql
+*.db
+*.sqlite
+/data/
